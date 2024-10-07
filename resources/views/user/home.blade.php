@@ -106,7 +106,7 @@
     <div class="grid grid-cols-3 items-center px-8 py-4 border-b-2">
         {{-- Logo --}}
         <div class="flex items-center">
-            <img src="{{asset('images/yegnaLogo-removebg.png')}}" alt="logo" class="w-48 h-auto"> <!-- Larger size -->
+            <img src="{{asset('images/yegnaLogo-removebg.png')}}" alt="logo" class="w-48 h-auto hover:scale-80 cursor-pointer"> <!-- Larger size -->
         </div>
 
         {{-- Nav bar links --}}
