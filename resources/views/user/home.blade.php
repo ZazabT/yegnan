@@ -14,6 +14,10 @@
             transition: background-color 0.9s ease-in-out;
             color: #50087b;
         }
+        .money_amoun{
+            color: rgb(39, 39, 39);
+            font-weight:700;
+        }
 
         .house-card {
          transition: transform 0.3s ease; 
@@ -45,7 +49,6 @@
 
         .house-card:hover .fa-star {
             animation: shake 0.5s ease infinite; 
-            /* animation: rotate 0.5s linear infinite; */
         }
 
 
@@ -96,12 +99,13 @@
             color: white;
             border: 2px solid #50087b;
         }
+      
     </style>
 </head>
 <body>
     {{-- Header --}}
     <header class="">
-       
+
           {{-- Nav bar --}}
     <div class="grid grid-cols-3 items-center px-8 py-4 border-b-2">
         {{-- Logo --}}
@@ -271,10 +275,11 @@
     </div>
 
     </header>
-
-
     {{-- Header End --}}
-  
+
+
+
+
     {{-- Main --}}
     <main class="mt-6 mx-10 ">
        
@@ -292,7 +297,7 @@
                 </div>
                 <p class="text-sm/relaxed mt-1 text-gray-500">5112 kilometers away</p>
                 <p class="text-sm/relaxed mt-1 text-gray-500">Dec 10-15</p>
-                <p class="text-sm/relaxed mt-1">$100 per night</p>
+                <p class="money_amoun text-sm/relaxed mt-1">$100 per night</p>
             </div>
             
         
@@ -308,7 +313,7 @@
                 </div>
                 <p class="text-sm/relaxed mt-1">350 kilometers away</p>
                 <p class="text-sm/relaxed mt-1">Dec 12-17</p>
-                <p class="text-sm/relaxed mt-1">$200 per night</p>
+                <p class="money_amoun text-sm/relaxed mt-1">$200 per night</p>
             </div>
         
             <!-- House Listing 3 -->
@@ -323,7 +328,7 @@
                 </div>
                 <p class="text-sm/relaxed mt-1">650 kilometers away</p>
                 <p class="text-sm/relaxed mt-1">Dec 5-10</p>
-                <p class="text-sm/relaxed mt-1">$150 per night</p>
+                <p class="money_amoun text-sm/relaxed mt-1">$150 per night</p>
             </div>
         
             <!-- House Listing 4 -->
@@ -338,7 +343,7 @@
                 </div>
                 <p class="text-sm/relaxed mt-1">400 kilometers away</p>
                 <p class="text-sm/relaxed mt-1">Dec 22-27</p>
-                <p class="text-sm/relaxed mt-1">$250 per night</p>
+                <p class="money_amoun text-sm/relaxed mt-1">$250 per night</p>
             </div>
         
             <!-- House Listing 5 -->
@@ -353,7 +358,7 @@
                 </div>
                 <p class="text-sm/relaxed mt-1">700 kilometers away</p>
                 <p class="text-sm/relaxed mt-1">Dec 1-5</p>
-                <p class="text-sm/relaxed mt-1">$180 per night</p>
+                <p class="money_amoun text-sm/relaxed mt-1">$180 per night</p>
             </div>
         
           <!-- House Listing 1 -->
@@ -368,7 +373,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">5112 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 10-15</p>
-            <p class="text-sm/relaxed mt-1">$100 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$100 per night</p>
         </div>
     
         <!-- House Listing 2 -->
@@ -383,7 +388,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">350 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 12-17</p>
-            <p class="text-sm/relaxed mt-1">$200 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$200 per night</p>
         </div>
     
         <!-- House Listing 3 -->
@@ -398,7 +403,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">650 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 5-10</p>
-            <p class="text-sm/relaxed mt-1">$150 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$150 per night</p>
         </div>
     
         <!-- House Listing 4 -->
@@ -413,7 +418,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">400 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 22-27</p>
-            <p class="text-sm/relaxed mt-1">$250 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$250 per night</p>
         </div>
     
         <!-- House Listing 5 -->
@@ -428,7 +433,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">700 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 1-5</p>
-            <p class="text-sm/relaxed mt-1">$180 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$180 per night</p>
         </div>
         
         <!-- House Listing 1 -->
@@ -443,7 +448,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">5112 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 10-15</p>
-            <p class="text-sm/relaxed mt-1">$100 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$100 per night</p>
         </div>
     
         <!-- House Listing 2 -->
@@ -458,7 +463,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">350 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 12-17</p>
-            <p class="text-sm/relaxed mt-1">$200 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$200 per night</p>
         </div>
     
         <!-- House Listing 3 -->
@@ -473,7 +478,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">650 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 5-10</p>
-            <p class="text-sm/relaxed mt-1">$150 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$150 per night</p>
         </div>
     
         <!-- House Listing 4 -->
@@ -488,7 +493,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">400 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 22-27</p>
-            <p class="text-sm/relaxed mt-1">$250 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$250 per night</p>
         </div>
     
         <!-- House Listing 5 -->
@@ -503,7 +508,7 @@
             </div>
             <p class="text-sm/relaxed mt-1">700 kilometers away</p>
             <p class="text-sm/relaxed mt-1">Dec 1-5</p>
-            <p class="text-sm/relaxed mt-1">$180 per night</p>
+            <p class="money_amoun text-sm/relaxed mt-1">$180 per night</p>
         </div>
         
             <div class=" house-card">
@@ -517,14 +522,21 @@
                 </div>
                 <p class="text-sm/relaxed mt-1">1000 kilometers away</p>
                 <p class="text-sm/relaxed mt-1">Dec 15-20</p>
-                <p class="text-sm/relaxed mt-1">$300 per night</p>
+                <p class="money_amoun text-sm/relaxed mt-1">$300 per night</p>
             </div>
         
             <!-- Repeat for 40 houses... -->
         </div>
         
     </main>
-   
+    {{-- Main End --}}  
+
+
+ 
+    
     {{-- Footer --}}
+    <footer class="footer">
+    </footer>
+    {{-- Footer End --}}
 </body>
 </html>
